@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+body { 
+    background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/anime-meadow-background-7.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+#main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wizard{
+    width:25%;
+    background-color:rgba(229, 82, 82, 0.849);
+    border:black solid 3px;
+    border-radius: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px;
+}
+#questions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+    flex-direction:column;
+    padding:7px;
+}
+#questions button{
+    margin: 5px;
+    width:100px;
+    height: 50px;
+}

@@ -13,7 +13,7 @@ body {
     justify-content: space-around;
     align-items:center;
 }
-#start{
+#intro{
     background-color: aqua;
     display:flex;
     flex-direction:column;
@@ -25,7 +25,7 @@ body {
     border-radius:100%;
     font-family: 'Baloo Bhai', cursive;
 }
-#start button{
+#start{
     background-color: blueviolet;
     height:50px;
     width: 200px;
