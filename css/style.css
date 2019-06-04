@@ -14,7 +14,8 @@ body {
     align-items:center;
 }
 #intro{
-    background-color: aqua;
+    background: url(https://i.pinimg.com/originals/f5/65/6c/f5656c75cd69867ad94ffebe16d6a4ce.jpg) ; 
+    background-size: cover;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -24,6 +25,7 @@ body {
     width:450px;
     border-radius:100%;
     font-family: 'Baloo Bhai', cursive;
+    border: lightblue groove 5px;
 }
 #start{
     background-color: blueviolet;
@@ -31,4 +33,15 @@ body {
     width: 200px;
     border-radius:25px;
     font-family: 'Josefin Sans', sans-serif;
+}
+#intro img{
+    height:225px;
+    width:125px;
+}
+#footer{
+    font-family: 'Baloo Bhai', cursive;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: lightblue groove 5px;
+    padding:5px;
 }

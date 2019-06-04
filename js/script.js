@@ -131,16 +131,16 @@ const questions = {
         "Is it used for our tooth paste?",
         "Do people use it to clean pools?",
         "Is it used for Photo film?",
-        "",
-        "",
+        "Is it commonly found in disinfectants?",
+        "Is it in Radioactive Medicine?",
     ],
     groupEightteen:[
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "Does it maka Ballons float?",
+        "Is it used for neon signs?",
+        "Is it used to make light bulbs?",
+        "Is it used to make flashlights?",
+        "Is it used for high intensity lamps?",
+        "Is it used for surgical implants?",
     ],
 }
 const elements = {
@@ -259,8 +259,8 @@ function gameLogic(){
     if(y===0){
         groupNumber = groupNumber + 1;
         $("#question").html("Is it in group "+ groupNumber + "?");
-        if(groupNumber >=18){
-            groupNumber = groupNumber - 18
+        if(groupNumber ===19){
+            groupNumber = 0
             return groupNumber
         }else{
         
@@ -286,6 +286,7 @@ function gameLogic(){
                     qNumber = -1
                     return qNumber
                 }
+
             }else if(groupNumber === 2){
                 const arrayLength = questions.groupTwo.length;
                 
@@ -303,6 +304,295 @@ function gameLogic(){
                     qNumber = -1
                     return qNumber
                 }
+
+            }else if(groupNumber === 3){
+                const arrayLength = questions.groupThree.length;
+                
+                $("#question").html(questions.groupThree[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupThree[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+
+            }else if(groupNumber === 4){
+                const arrayLength = questions.groupFour.length;
+                
+                $("#question").html(questions.groupFour[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupFour[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+
+            }else if(groupNumber === 5){
+                const arrayLength = questions.groupFive.length;
+                
+                $("#question").html(questions.groupFive[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupFive[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 6){
+                const arrayLength = questions.groupSix.length;
+                
+                $("#question").html(questions.groupSix[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupSix[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 7){
+                const arrayLength = questions.groupSeven.length;
+                
+                $("#question").html(questions.groupSeven[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupSeven[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 8){
+                const arrayLength = questions.groupEight.length;
+                
+                $("#question").html(questions.groupEight[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupEight[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 9){
+                const arrayLength = questions.groupNine.length;
+                
+                $("#question").html(questions.groupNine[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupNine[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 10){
+                const arrayLength = questions.groupTen.length;
+                
+                $("#question").html(questions.groupTen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupTen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 11){
+                const arrayLength = questions.groupEleven.length;
+                
+                $("#question").html(questions.groupEleven[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupEleven[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 12){
+                const arrayLength = questions.groupTwelve.length;
+                
+                $("#question").html(questions.groupTwelve[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupTwelve[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 13){
+                const arrayLength = questions.groupThirteen.length;
+                
+                $("#question").html(questions.groupThirteen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupThirteen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 14){
+                const arrayLength = questions.groupFourteen.length;
+                
+                $("#question").html(questions.groupFourteen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupFourteen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 15){
+                const arrayLength = questions.groupFifteen.length;
+                
+                $("#question").html(questions.groupFifteen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupFifteen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 16){
+                const arrayLength = questions.groupSixteen.length;
+                
+                $("#question").html(questions.groupSixteen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupSixteen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 17){
+                const arrayLength = questions.groupSeventeen.length;
+                
+                $("#question").html(questions.groupSeventeen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupSeventeen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
+            }else if(groupNumber === 18){
+                const arrayLength = questions.groupEightteen.length;
+                
+                $("#question").html(questions.groupEightteen[qNumber]);
+                if(y === 2){
+                    $("#question").html(" Is your element is "+ elements.groupEightteen[qNumber] +" ?");
+                    
+                }else if(y === 3){
+                    $("#yes").hide();
+                    $("#no").hide();
+                    $("#question").html("Yayyyy");
+                }
+
+                if(qNumber === arrayLength -1){
+                    qNumber = -1
+                    return qNumber
+                }
+                
             }
     }
 }   
