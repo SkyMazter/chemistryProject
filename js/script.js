@@ -108,7 +108,7 @@ const questions = {
     ],
     groupFourteen:[
         "Is its isotope used to determine the age of fossils?",
-        "Is it in Rocks, sand, and soil?",
+        "Is it commonly used for breast implants?",
         "Is it used for semi-conductors?",
         "Is it used to make cans?",
         "Is it commonly found in NYC'S water supply?",
