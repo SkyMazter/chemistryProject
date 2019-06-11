@@ -75,7 +75,7 @@ const questions = {
         "Is it used for rocket engines?",
     ],
     groupEight:[
-        "Can it be cound in your blood and the earth's core?",
+        "Can it be found in your blood and the earth's core?",
         "Is it used for electrical switches?",
         "Is it used for fingerprint powder?",
     ],
